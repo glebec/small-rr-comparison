@@ -1,0 +1,30 @@
+{
+	"name": "tiny-rr",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "Gabriel Lebec <glebec@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"build": "webpack",
+		"build-dev": "npm run build -- -w",
+		"start": "opn index.html && npm run build-dev",
+		"postinstall": "npm run build"
+	},
+	"devDependencies": {
+		"babel-core": "^6.24.1",
+		"babel-loader": "^7.0.0",
+		"babel-preset-env": "^1.5.1",
+		"babel-preset-react": "^6.24.1",
+		"opn-cli": "^3.1.0",
+		"webpack": "^2.6.1"
+	},
+	"dependencies": {
+		"react": "^15.5.4",
+		"react-dom": "^15.5.4",
+		"react-redux": "^5.0.5",
+		"redux": "^3.6.0",
+		"redux-devtools-extension": "^2.13.2",
+		"redux-logger": "^3.0.6",
+		"redux-thunk": "^2.2.0"
+	}
+}
