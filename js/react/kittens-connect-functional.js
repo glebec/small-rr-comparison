@@ -1,6 +1,7 @@
 import React from 'react';
-import { connect } from 'react-redux' // REACT-REDUX
+
 import { addKitten } from '../redux/kittens'
+import { connect } from 'react-redux' // REACT-REDUX
 
 const KittensConnect = props => {
 

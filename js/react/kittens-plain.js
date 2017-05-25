@@ -4,6 +4,7 @@ import { addKitten } from '../redux/kittens'
 import store from '../redux/store' // VANILLA REDUX
 
 export default class KittensPlain extends React.Component {
+
 	constructor (props) {
 		super(props)
 		this.state = {
