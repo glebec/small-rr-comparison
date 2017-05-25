@@ -1,5 +1,7 @@
 # React & Redux vs. React-Redux
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/glebec/small-rr-comparison.svg)](https://greenkeeper.io/)
+
 A tiny example demonstrating wiring react and redux together manually, vs. using the `react-redux` library's `connect` method. There is no backend.
 
 ## Setup
